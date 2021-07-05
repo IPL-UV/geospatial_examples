@@ -11,7 +11,7 @@ To add/correct/improve an example:
 
 * fork the repository 
 * make your changes by following the [examples guidelines](code/README.md)
-* update this [README](README.md) with the new info 
+* update the language README with the new example 
 * send a pull request
 * if modifying an already existing example, request a 
   review from the original creator 
@@ -21,10 +21,10 @@ To add/correct/improve an example:
 
 (alphabetical order)
 
-- [javascript](javascript) 
-- [MATLAB](#matlab)
-- [python](#python) 
-- [R](#r)  
+- [javascript](code/javascript) 
+- [MATLAB](code/MATLAB)
+- [python](code/python) 
+- [R](code/R)  
 
 ### Tasks 
 
@@ -36,24 +36,3 @@ To add/correct/improve an example:
 - reproject 
 - write
 
-this is not an exhaustive list.  
-
-
-## List of all available examples
-
-### MATLAB
-
-
-### python 
-
-
-### R 
-
-- crop a raster:
-   * with the `raster` package `crop_raster.R`
-
-
-
-
-
- 
