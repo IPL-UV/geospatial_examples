@@ -10,12 +10,12 @@ libraries and packages.
 To add/correct/improve an example: 
 
 * fork the repository 
-* make your changes by following the [guidelines](guidelines.md)
+* make your changes by following the [examples guidelines](code/README.md)
 * update this [README](README.md) with the new info 
 * send a pull request
 * if modifying an already existing example, request a 
   review from the original creator 
-  and/or the current maintainer of the modified example 
+  and/or the current maintainer of the modified example. 
 
 ### Languages 
 
