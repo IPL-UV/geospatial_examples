@@ -49,6 +49,8 @@ this is not an exhaustive list.
 
 ### R 
 
+- crop a raster:
+   * with the `raster` package `crop_raster.R`
 
 
 
