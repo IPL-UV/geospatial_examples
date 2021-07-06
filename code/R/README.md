@@ -10,6 +10,10 @@ R programming language.
 - packages should be loaded at the beginning of the example file. 
 - packages which are not available from CRAN should be identified and 
   the alternative installation procedure should be described in the comment.   
+- files should be runnable from the root of the repository, e.g. 
+  ```
+  Rscript code/R/crop_raster.R
+  ```
 
 ### List of examples
 
