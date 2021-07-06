@@ -25,6 +25,7 @@ and send a pull request.
 
 (alphabetical order)
 
+- [gdal](code/gdal)
 - [javascript](code/javascript) 
 - [MATLAB](code/MATLAB)
 - [python](code/python) 
@@ -36,14 +37,20 @@ This list contains the main tasks that are solved in individual examples,
 this is not an exhaustive list and more complex examples con be present for 
 particular languages. 
 But every language should have at least examples for the following 
-tasks, or at least we shoudl aim for it. 
+tasks, or at least we should aim for it. 
 If you think a task should be added to the following list please 
 modify this README and send a pull request. 
 
 (alphabetical order) 
 
-- crop 
-- plot 
-- read
-- reproject 
-- write
+- `crop` :  the action of producing a new dataset restricted to a smaller (usually rectangular)
+            region. The output data should be correctly georeferenced.  
+- `focal` : performs a neighborhood operation that computes an output raster where the value for each output cell is a function of the values of all the input cells that are in a specified neighborhood around that location. It is a generalization of convolutions. The output raster should be correctly 
+georeferenced.
+- `plot`  : plotting or visualizing georeferenced data. This can be a static image, an interactive 
+            map or a dynamic video or image.  
+- `read`  : load the data appropriately. This includes reading the associated CRS, selecting the band,
+            reading the value associated to NA.  
+- `reproject` : reproject the data to a new CRS.  
+- `write` : write the data into a file on disk. 
+
