@@ -44,6 +44,8 @@ package in an example please list it here.
 Recorded talks, tutorials, articles, .... 
 Please update the list with useful resources. 
 
+- CRAN view Spatial <https://cran.r-project.org/web/views/Spatial.html>
+- <https://github.com/sacridini/Awesome-Geospatial#r>
 - Keynote: R Spatial (Pebesma, Edzer)  at UseR!2021 <https://www.youtube.com/watch?v=O8V4QJ13Gjc>
 - useR! 2020: Analyzing & visualising spatial data cubes (E. Pebesma, M. Tennekes), tutorial 
   <https://www.youtube.com/watch?v=eGUjpqkoBCM>
@@ -51,6 +53,7 @@ Please update the list with useful resources.
 - <https://erinbecker.github.io/r-raster-vector-geospatial/>
 - <https://r-spatial.github.io/stars/> 
 - <https://riatelab.github.io/mapsf/>
+
 
 
 
