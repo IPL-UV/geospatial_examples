@@ -1,3 +1,5 @@
+## Crop raster data to a given extent 
+## task: crop
 ## author: Gherardo Varando (git: gherardovarando)
 ## packages: raster, rgdal (needed by raster to load geotiff)
 
