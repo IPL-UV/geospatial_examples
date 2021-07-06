@@ -1,5 +1,7 @@
 ## Plot vector data using ggplot2+ggspatial 
 ## task: plot
+## Plot raster data using ggplot2+ggspatial 
+## task: plot
 ## author: Gherardo Varando (git: gherardovarando)
 ## packages: ggplot2, ggspatial, raster
 
