@@ -19,6 +19,7 @@ R programming language.
 
 - [`crop_raster.R`](crop_raster.R): crop a raster with the `raster` package. 
 - [`crop_raster_terra.R`](crop_raster_terra.R): crop a raster with the `terra` package. 
+- [`crop_vector_stars.R`](crop_vector_stars.R): crop vector data with the `stars` package. 
 
 
 ### Packages 
@@ -30,6 +31,7 @@ package in an example please list it here.
 - [`terra`](https://cran.r-project.org/package=terra)  This is the **future** of raster package 
 (same author). `terra` should be faster and `raster` dependencies will retire in
  2024 (see Pebesma talk at UseR!2021)  
+- [`stars`](https://cloud.r-project.org/package=stars)
 
 ### Resources 
 
@@ -41,6 +43,7 @@ Please update the list with useful resources.
   <https://www.youtube.com/watch?v=eGUjpqkoBCM>
 - Rspatial <https://www.rspatial.org/>
 - <https://erinbecker.github.io/r-raster-vector-geospatial/>
+- <https://r-spatial.github.io/stars/> 
 
 
 
