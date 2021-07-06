@@ -40,6 +40,7 @@ Please update the list with useful resources.
 - useR! 2020: Analyzing & visualising spatial data cubes (E. Pebesma, M. Tennekes), tutorial 
   <https://www.youtube.com/watch?v=eGUjpqkoBCM>
 - Rspatial <https://www.rspatial.org/>
+- <https://erinbecker.github.io/r-raster-vector-geospatial/>
 
 
 
