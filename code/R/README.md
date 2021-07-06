@@ -29,6 +29,8 @@ R programming language.
 A list of useful packages for handling geospatial data in R. If you use a 
 package in an example please list it here. 
 
+- [`sf`](https://cran.r-project.org/package=sf) Support for simple features, binding to GDAL, 
+  GEOS and PROJ
 - [`raster`](https://cran.r-project.org/package=raster) 
 - [`terra`](https://cran.r-project.org/package=terra)  This is the **future** of raster package 
 (same author). `terra` should be faster and `raster` dependencies will retire in
