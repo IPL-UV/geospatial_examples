@@ -23,7 +23,8 @@ R programming language.
 
 ### Packages 
 
-A list of useful packages for handling geospatial data in R. 
+A list of useful packages for handling geospatial data in R. If you use a 
+package in an example please list it here. 
 
 - [`raster`](https://cran.r-project.org/package=raster) 
 - [`terra`](https://cran.r-project.org/package=terra)  This is the **future** of raster package 
@@ -33,14 +34,14 @@ A list of useful packages for handling geospatial data in R.
 ### Resources 
 
 Recorded talks, tutorials, articles, .... 
+Please update the list with useful resources. 
 
-
-* Keynote: R Spatial (Pebesma, Edzer)  at UseR!2021 <https://www.youtube.com/watch?v=O8V4QJ13Gjc>
-* Rspatial <https://www.rspatial.org/>
+- Keynote: R Spatial (Pebesma, Edzer)  at UseR!2021 <https://www.youtube.com/watch?v=O8V4QJ13Gjc>
+- Rspatial <https://www.rspatial.org/>
 
 
 
 ### Maintainers 
 (list yourself here if you maintain one or more examples) 
 
-- Gherardo Varando (git: gherardovarando) 
+- Gherardo Varando (git: [gherardovarando](https://github.com/gherardovarando)) 
