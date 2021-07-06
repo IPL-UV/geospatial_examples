@@ -33,6 +33,7 @@ package in an example please list it here.
  2024 (see Pebesma talk at UseR!2021)  
 - [`stars`](https://cloud.r-project.org/package=stars)
 - [`mapsf`](https://github.com/riatelab/mapsf) 
+- [`ggspatial`](https://cran.r-project.org/package=ggspatial)
 
 ### Resources 
 
