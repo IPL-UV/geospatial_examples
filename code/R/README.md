@@ -37,11 +37,13 @@ Recorded talks, tutorials, articles, ....
 Please update the list with useful resources. 
 
 - Keynote: R Spatial (Pebesma, Edzer)  at UseR!2021 <https://www.youtube.com/watch?v=O8V4QJ13Gjc>
+- useR! 2020: Analyzing & visualising spatial data cubes (E. Pebesma, M. Tennekes), tutorial 
+  <https://www.youtube.com/watch?v=eGUjpqkoBCM>
 - Rspatial <https://www.rspatial.org/>
 
 
 
 ### Maintainers 
-(list yourself here if you maintain one or more examples) 
+(list yourself here if you maintain one or more examples in this folder) 
 
 - Gherardo Varando (git: [gherardovarando](https://github.com/gherardovarando)) 
