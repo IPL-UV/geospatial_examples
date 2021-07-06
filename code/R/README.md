@@ -22,6 +22,8 @@ R programming language.
 - [`crop_vector_stars.R`](crop_vector_stars.R): crop vector data with the `stars` package. 
 - [`plot_vector_ggspatial.R`](plot_vector_ggspatial.R): plot vector data with the `ggspatial` and `ggplot2` packages 
 - [`plot_raster_ggspatial.R`](plot_raster_ggspatial.R): plot a raster with the `ggspatial` and `ggplot2` packages 
+- [`read_raster.R`](read_raster.R): read a raster with the `raster` package. 
+- [`read_vector_sf.R`](read_vector_sf.R): read vector data with the `sf` package. 
 - [`reproject_raster.R`](reproject_raster.R): reproject a raster with the `raster` package. 
 
 ### Packages 
