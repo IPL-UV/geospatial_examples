@@ -22,3 +22,9 @@ datasets in the `data/` folder.
   history of the repo. 
   Yo can use the `git filter-branch` commando or, easier the `bfg repo-cleaner` available here
   <https://rtyley.github.io/bfg-repo-cleaner/> with instructions. 
+
+
+### Resources 
+
+
+- <https://www.naturalearthdata.com/>
