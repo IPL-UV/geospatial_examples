@@ -46,7 +46,7 @@ modify this README and send a pull request.
 - `crop` :  the action of producing a new dataset restricted to a smaller (usually rectangular)
             region. The output data should be correctly georeferenced.  
 - `focal` : performs a neighborhood operation that computes an output raster where the value for each output cell is a function of the values of all the input cells that are in a specified neighborhood around that location. It is a generalization of convolutions. The output raster should be correctly 
-georeferenced.
+georeferenced. See for example [arcgis help page](https://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/how-focal-statistics-works.htm). 
 - `plot`  : plotting or visualizing georeferenced data. This can be a static image, an interactive 
             map or a dynamic video or image.  
 - `read`  : load the data appropriately. This includes reading the associated CRS, selecting the band,
