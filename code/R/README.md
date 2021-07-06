@@ -32,6 +32,7 @@ package in an example please list it here.
 (same author). `terra` should be faster and `raster` dependencies will retire in
  2024 (see Pebesma talk at UseR!2021)  
 - [`stars`](https://cloud.r-project.org/package=stars)
+- [`mapsf`](https://github.com/riatelab/mapsf) 
 
 ### Resources 
 
@@ -44,6 +45,7 @@ Please update the list with useful resources.
 - Rspatial <https://www.rspatial.org/>
 - <https://erinbecker.github.io/r-raster-vector-geospatial/>
 - <https://r-spatial.github.io/stars/> 
+- <https://riatelab.github.io/mapsf/>
 
 
 
