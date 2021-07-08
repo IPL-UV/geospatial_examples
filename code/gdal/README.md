@@ -14,8 +14,8 @@ referenced as _Programs_ in the GDAL website <https://gdal.org/programs>.
 
 ### List of examples
 
-- [`read_raster_info.sh`](read_raster_info.sh)
-- [`read_vector_info.sh`](read_raster_info.sh)
+- [`read_info_raster.sh`](read_info_raster.sh)
+- [`read_info_vector.sh`](read_info_vector.sh)
 
 
 ### Resources 
