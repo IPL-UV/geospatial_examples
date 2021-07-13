@@ -1,5 +1,6 @@
 ## geospatial examples  
 
+(exercise repo for the IPL git tutorial) 
 
 This repo contains a collection of examples in handling 
 geospatial data with different programming languages,
