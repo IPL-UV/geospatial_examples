@@ -25,6 +25,7 @@ R programming language.
 - [`read_raster.R`](read_raster.R): read a raster with the `raster` package. 
 - [`read_vector_sf.R`](read_vector_sf.R): read vector data with the `sf` package. 
 - [`reproject_raster.R`](reproject_raster.R): reproject a raster with the `raster` package. 
+- [`reproject_raster_terra.R`](reproject_raster_terra.R): reproject a raster with the `terra` package. 
 
 ### Packages 
 
