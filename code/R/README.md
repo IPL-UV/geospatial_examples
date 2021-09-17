@@ -26,6 +26,9 @@ R programming language.
 - [`read_vector_sf.R`](read_vector_sf.R): read vector data with the `sf` package. 
 - [`reproject_raster.R`](reproject_raster.R): reproject a raster with the `raster` package. 
 - [`reproject_raster_terra.R`](reproject_raster_terra.R): reproject a raster with the `terra` package. 
+- [`rotate_raster.R`](rotate_raster.R): rotate a raster with the `raster` package, _rotate_ refers to
+  transform a raster that has x coordinates (longitude) from 0 to 360, to standard coordinates 
+  between -180 and 180 degrees. 
 
 ### Packages 
 
