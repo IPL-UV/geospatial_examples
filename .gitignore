@@ -1,3 +1,7 @@
 # ignore vim swap files
-.swp 
+*.swp 
+
+# ignore tif files 
+*.tif 
+*.tiff 
 
