@@ -29,7 +29,8 @@ in particular:
 - [`crop_vector.sh`](crop_vector.sh)
 - [`read_info_raster.sh`](read_info_raster.sh)
 - [`read_info_vector.sh`](read_info_vector.sh)
-- [`reproject_raster.sh`](reproject_raste.sh) 
+- [`reproject_raster.sh`](reproject_raster.sh) 
+- [`reproject_vector.sh`](reproject_vector.sh) 
 
 
 ### Resources 
