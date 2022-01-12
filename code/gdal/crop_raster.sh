@@ -9,7 +9,7 @@ mkdir out_gdal
 
 # define source and destination files
 SRCFILE="data/wc2.1_10m_tavg/wc2.1_10m_tavg_01.tif"
-DSTFILE="cropped_raster.tif"
+DSTFILE="out_gdal/cropped_raster.tif"
 
 # with the -projwin option we can specify 
 # upper-left and lower-right coordinates 
