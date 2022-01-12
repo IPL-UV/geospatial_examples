@@ -1,14 +1,20 @@
-## geospatial examples  
+## Geospatial Examples  
 
 This repo contains a collection of examples in handling 
 geospatial data with different programming languages,
 libraries and packages.  
+It is not intended as a list of geospatial resources, 
+for this you can check the 
+[Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial#r).
+Instead, the goal is to have a collection of 
+**working, simple and unitary examples** in different 
+coding languages. 
 
 The `geospatial_examples` repository was originally 
 created as an example of a git repository during an 
 internal git course.
 
-### contributing  
+### Contributing  
 
 To add/correct/improve an example: 
 
@@ -40,7 +46,7 @@ This list contains the main tasks that are solved in individual examples,
 this is not an exhaustive list and more complex examples con be present for 
 particular languages. 
 But every language should have at least examples for the following 
-tasks, or at least we should aim for it. 
+tasks, _or at least we should aim for it_. 
 If you think a task should be added to the following list please 
 modify this README and send a pull request. 
 
