@@ -15,6 +15,7 @@ DSTFILE="out_gdal/reprojected_raster.tif"
 # Mercator (world) https://www.spatialreference.org/ref/sr-org/16/
 CRS="+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
 
-gdalwarp -t_srs "${CRS}" ${SRCFILE} ${DSTFILE} 
+# perform reprojection 
+gdalwarp -t_srs "${CRS}" "${SRCFILE}" "${DSTFILE}" 
 
 # check output file in out_gdal

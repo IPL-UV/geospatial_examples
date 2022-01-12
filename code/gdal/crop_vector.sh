@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# crop a raster using gdal 
+# crop a vector layer using gdal 
 # author: Gherardo Varando (github: gherardovarando)  
 
 # clean and prepare output folder
