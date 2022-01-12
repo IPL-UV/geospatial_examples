@@ -18,6 +18,10 @@ in particular:
   ```
   bash code/gdal/crop_raster.sh
   ``` 
+- output files should be written in a folder named `out_gdal` 
+  this folder should be removed and created at the beginning 
+  of examples that will output files, check `crop_raster.sh` 
+  as an example. 
 
 ### List of examples
 
