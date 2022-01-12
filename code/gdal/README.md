@@ -10,10 +10,18 @@ referenced as _Programs_ in the GDAL website <https://gdal.org/programs>.
  
 ### Additional guidelines 
 
+Try follow [google shell style guide](https://google.github.io/styleguide/shellguide.html) 
+in particular: 
 
+- executables should have no extension (strongly preferred) or a .sh extension
+- files should be executable from the root of the repository e.g. 
+  ```
+  bash code/gdal/crop_raster.sh
+  ``` 
 
 ### List of examples
 
+- [`crop_raster.sh`](crop_raster.sh)
 - [`read_info_raster.sh`](read_info_raster.sh)
 - [`read_info_vector.sh`](read_info_vector.sh)
 
