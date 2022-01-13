@@ -13,8 +13,8 @@
 
 ### List of examples
 
-- [plot_vector_leaflet.js](plot_vector_leaflet.js): plot a vector (zipped shapefiles) with leaflet and shapefile-js 
-- [plot_raster_leaflet.js](plot_raster_leaflet.js): plot a raster with leaflet and georaster 
+- [plot_vector_leaflet.html](plot_vector_leaflet.html): plot a vector (zipped shapefiles) with leaflet and shapefile-js 
+- [plot_raster_leaflet.html](plot_raster_leaflet.html): plot a raster with leaflet and georaster 
 
 ### Libraries 
 
