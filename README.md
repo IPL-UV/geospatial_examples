@@ -21,6 +21,7 @@ To add/correct/improve an example:
 * fork the repository 
 * make your changes by following the [examples guidelines](code/README.md)
 * update the language README with the new example 
+* update the tasks table at the end of this README accordingly. 
 * send a pull request
 * if modifying an already existing example, request a 
   review from the original creator 
@@ -48,7 +49,8 @@ particular languages.
 But every language should have at least examples for the following 
 tasks, _or at least we should aim for it_. 
 If you think a task should be added to the following list please 
-modify this README and send a pull request. 
+modify this README (including the tasks table)
+and send a pull request. 
 
 (alphabetical order) 
 
@@ -62,4 +64,16 @@ georeferenced. See for example [arcgis help page](https://desktop.arcgis.com/en/
             reading the value associated to NA.  
 - `reproject` : reproject the data to a new CRS.  
 - `write` : write the data into a file on disk. 
+
+
+| task             |  gdal | javascript |  python | R      |
+| ---              |  ---  | -----      |  -----  | ----   |
+| `crop`           |  rv   |            |         | rv     |
+| `focal`          |       |            |         |        |
+| `plot`           |       |    rv      |         | rv     |
+| `read`           |  rv   |            |         | rv     |
+| `reproject`      |  rv   |            |         | rv     |
+| `write`          |       |            |         |        |
+
+r == raster, v == vector 
 
