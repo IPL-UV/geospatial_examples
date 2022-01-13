@@ -14,6 +14,7 @@
 ### List of examples
 
 - [plot_vector_leaflet.js](plot_vector_leaflet.js): plot a vector (zipped shapefiles) with leaflet and shapefile-js 
+- [plot_raster_leaflet.js](plot_raster_leaflet.js): plot a raster with leaflet and georaster 
 
 ### Libraries 
 
@@ -22,6 +23,8 @@
 - turf <https://turfjs.org/> 
 - OpenLayers <https://openlayers.org/>
 - shapefile-js <https://github.com/calvinmetcalf/shapefile-js> 
+- georaster-layer-for-leaflet <https://github.com/GeoTIFF/georaster-layer-for-leaflet> 
+- georaster <https://github.com/GeoTIFF/georaster> 
 
 ### Resources 
 
