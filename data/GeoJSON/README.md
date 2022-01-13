@@ -7,6 +7,11 @@
 - [gdal geojson](https://gdal.org/drivers/vector/geojson.html) page. 
 
 
+**Warning** RFC 7946 standard assumes that the coordinate reference system 
+for all GeoJSON is geographic coordinate reference system, using the World Geodetic
+   System 1984 (WGS 84). For details check [Section 4](https://www.rfc-editor.org/rfc/rfc7946#section-4) of the RFC 7946 standard. 
+   In the GJS2008 standard, use of alternatives CRS was allowed. 
+
 ### available files 
 
 - [spain.json](spain.json) copied from 
