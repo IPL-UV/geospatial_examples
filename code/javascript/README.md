@@ -3,9 +3,10 @@
 ### Additional guidelines for javascript examples 
 
 - Example should consist of either single HTML files, folder with HTML and js files or single js files 
-- HTML files should work by serving the root of the repository over port 800, e.g with python `http.server`:
+- HTML files should work by serving the root of the repository over port 8000, e.g with python `http.server`:
   ```
-  python3 -m http.server
+  python3 -m http.server 8000
+  # then visit the html, e.g. http://0.0.0.0:8000/code/javascript/leaflet/plot_vector.html
   ```
   this is needed to be able to access the `data/` folder.
 - Examples consisting of single js files should be runnable as Node.js scripts
