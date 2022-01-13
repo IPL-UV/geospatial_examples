@@ -25,5 +25,7 @@
 ### Resources 
 
 
-
 ### Maintainers 
+(list yourself here if you maintain one or more examples in this folder) 
+
+- Gherardo Varando (github: [gherardovarando](https://github.com/gherardovarando)) 

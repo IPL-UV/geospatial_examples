@@ -2,10 +2,10 @@
 <!-- 
 	Plot a vector layer from a zipped shapefile 
 	author: gherardo varando (github: gherardovarando)
-        js libraries: 
-	     - shapefile-js https://github.com/calvinmetcalf/shapefile-js
-	     - chroma.js https://github.com/gka/chroma.js
-	     - leaflet.js https://leafletjs.com/
+	js libraries: 
+	- shapefile-js https://github.com/calvinmetcalf/shapefile-js
+	- chroma.js https://github.com/gka/chroma.js
+	- leaflet.js https://leafletjs.com/
 -->
 <html>
 
@@ -21,7 +21,7 @@
 		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 			crossorigin=""></script>
-                
+
 		<!-- https://github.com/calvinmetcalf/shapefile-js-->
 		<script src="https://unpkg.com/shpjs@4.0.2/dist/shp.js"></script>
 
@@ -37,9 +37,8 @@
 
 
 	<script>
-		
-		scale = chroma.scale(['red', 'navy']).domain([100000, 1000000], 50, 'log');
-		var map = L.map('map').setView([39.4699, 0.3763], 4);
+scale = chroma.scale(['red', 'navy']).domain([100000, 1000000], 50, 'log');
+var map = L.map('map').setView([39.4699, 0.3763], 4);
 
 L.tileLayer( 'http://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -57,15 +56,10 @@ var geo = L.geoJson({features:[]},{onEachFeature:function popUp(f,l){
 			out.push(key+": "+f.properties[key]);
 		}
 		l.bindPopup(out.join("<br />"));
-		
-	}
-}, 
+	}}, 
 	style: function (f, l){
-		console.log(f.properties["GDP_MD_EST"])
 		return {color: scale(f.properties["GDP_MD_EST"])}
-	}
-	}).addTo(map);
-
+	}}).addTo(map);
 var base = 'http://0.0.0.0:8000/data/ne_110m_admin_0_countries.zip';
 shp(base).then(function(data){
 	geo.addData(data);
