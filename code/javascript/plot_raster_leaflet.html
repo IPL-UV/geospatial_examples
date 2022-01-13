@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- 
+	Display a raster layer from a geoTIFF using leaflet and georaster 
+	author: gherardo varando (github: gherardovarando)
+	js libraries: 
+	- leaflet.js https://leafletjs.com/
+	- georaster https://github.com/GeoTIFF/georaster 
+	- georaster-layer-for-leaflet https://github.com/GeoTIFF/georaster-layer-for-leaflet 
+-->
+<html>
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>plot geotiff with leaflet and </title>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+				       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+				       crossorigin=""/>
+
+		<!-- Make sure you put this AFTER Leaflet's CSS -->
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+			crossorigin=""></script>
+
+		<!-- https://github.com/GeoTIFF/georaster -->
+		<script src="https://unpkg.com/georaster"></script>
+
+		<!-- https://github.com/geotiff/georaster-layer-for-leaflet -->
+		<script src="https://unpkg.com/georaster-layer-for-leaflet/dist/georaster-layer-for-leaflet.min.js"></script>
+
+		<!-- https://github.com/gka/chroma.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.2/chroma.min.js"></script>
+	</head>
+
+	<body>
+
+		<div id="map" style="height:500pt; width: 500pt"></div>
+	</body>
+
+
+	<script>
+
+//define scale with chroma.js blue == cold, red == hot 	
+var scale = chroma.scale(['blue', 'red']).domain([-15, 15]);
+
+var map = L.map('map').setView([39.4699, 0.3763], 4);
+
+// example copied from https://github.com/geotiff/georaster-layer-for-leaflet
+var url_to_geotiff_file = "http://0.0.0.0:8000/data/wc2.1_10m_tavg/wc2.1_10m_tavg_01.tif";
+
+fetch(url_to_geotiff_file)
+  .then(response => response.arrayBuffer())
+  .then(arrayBuffer => {
+    GeoRaster(arrayBuffer).then(georaster => {
+      /*
+          GeoRasterLayer is an extension of GridLayer,
+          which means can use GridLayer options like opacity.
+
+          Just make sure to include the georaster option!
+
+          Optionally set the pixelValuesToColorFn function option to customize
+          how values for a pixel are translated to a color.
+
+          http://leafletjs.com/reference-1.2.0.html#gridlayer
+      */
+      var layer = new GeoRasterLayer({
+          georaster: georaster,
+          opacity: 1,
+          pixelValuesToColorFn: values => values[0] < -1000 ? 'white' : scale(values[0]), // NA values are big negative
+          resolution: 64 // optional parameter for adjusting display resolution
+      });
+      layer.addTo(map);
+
+  });
+});
+	</script>
+
+
+</html>
+
