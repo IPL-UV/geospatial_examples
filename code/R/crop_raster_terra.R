@@ -1,6 +1,6 @@
 ## Crop raster data to a given extent 
 ## task: crop
-## author: Gherardo Varando (git: gherardovarando)
+## author: Gherardo Varando (github: gherardovarando)
 ## packages: terra 
 
 ## load the terra package

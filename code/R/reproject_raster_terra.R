@@ -1,6 +1,6 @@
 ## Reproject raster data to new CRS
 ## task: reproject
-## author: Gherardo Varando (git: gherardovarando)
+## author: Gherardo Varando (github: gherardovarando)
 ## packages: terra
 
 ## load the terra package

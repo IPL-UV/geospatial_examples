@@ -1,6 +1,6 @@
 ## Rotate a raster from 0, 360 to -180, 180 degrees (longitude)
 ## task: rotate
-## author: Gherardo Varando (git: gherardovarando)
+## author: Gherardo Varando (github: gherardovarando)
 ## packages: raster, ncdf4 (needed by raster to load netCDF files)
 
 ## load the raster package

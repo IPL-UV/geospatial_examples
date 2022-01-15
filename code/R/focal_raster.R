@@ -1,5 +1,5 @@
-## Crop raster data to a given extent 
-## task: crop
+## Focal operation over a raster 
+## task: focal
 ## author: Gherardo Varando (github: gherardovarando)
 ## packages: raster, rgdal (needed by raster to load geotiff)
 
@@ -14,14 +14,12 @@ x <- raster("data/wc2.1_10m_tavg/wc2.1_10m_tavg_01.tif")
 message("Original raster:")
 print(x)
 
-## define the extent we want to crop 
-## xmin, xmax, ymin, ymax 
-## we use here latitudes and longitudes 
-## (this is around Valencia)
-myextent <- extent(-1,0,39,40)
+# define weighted moving window
+# sides must be odd numbers
+w <- matrix(1, nrow = 3, ncol = 3)
 
-## crop the raster 
-y <- crop(x, myextent)
+## perform focal operation with median
+y <- focal(x, w = w, fun = median)
 
-message("cropped raster:")
+message("output raster:")
 print(y)

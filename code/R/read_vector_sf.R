@@ -1,6 +1,6 @@
 ## Read vector data (shapefile)
 ## task: read
-## author: Gherardo Varando (git: gherardovarando)
+## author: Gherardo Varando (github: gherardovarando)
 ## packages: sf
 
 ## load the sf package

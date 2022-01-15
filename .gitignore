@@ -4,3 +4,6 @@
 # ignore gdal output dir 
 out_gdal
 
+# ignore R output dir
+out_R
+

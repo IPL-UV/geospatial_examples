@@ -20,6 +20,7 @@ R programming language.
 - [`crop_raster.R`](crop_raster.R): crop a raster with the `raster` package. 
 - [`crop_raster_terra.R`](crop_raster_terra.R): crop a raster with the `terra` package. 
 - [`crop_vector_stars.R`](crop_vector_stars.R): crop vector data with the `stars` package. 
+- [`focal_raster.R`](focal_raster.R): focal operation with the `raster` package.
 - [`plot_vector_ggspatial.R`](plot_vector_ggspatial.R): plot vector data with the `ggspatial` and `ggplot2` packages 
 - [`plot_raster_ggspatial.R`](plot_raster_ggspatial.R): plot a raster with the `ggspatial` and `ggplot2` packages 
 - [`read_raster.R`](read_raster.R): read a raster with the `raster` package. 
@@ -29,6 +30,10 @@ R programming language.
 - [`rotate_raster.R`](rotate_raster.R): rotate a raster with the `raster` package, _rotate_ refers to
   transform a raster that has x coordinates (longitude) from 0 to 360, to standard coordinates 
   between -180 and 180 degrees. 
+- [`write_raster.R`](write_raster.R): write a raster to disk with the `raster`
+  package.
+- [`write_vector_sf.R`](write_vector_sf.R): write a vector to disk with 
+  the `sf` package.
 
 ### Packages 
 
@@ -66,4 +71,4 @@ Please update the list with useful resources.
 ### Maintainers 
 (list yourself here if you maintain one or more examples in this folder) 
 
-- Gherardo Varando (git: [gherardovarando](https://github.com/gherardovarando)) 
+- Gherardo Varando (github: [gherardovarando](https://github.com/gherardovarando)) 
