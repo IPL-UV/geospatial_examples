@@ -20,6 +20,7 @@ R programming language.
 - [`crop_raster.R`](crop_raster.R): crop a raster with the `raster` package. 
 - [`crop_raster_terra.R`](crop_raster_terra.R): crop a raster with the `terra` package. 
 - [`crop_vector_stars.R`](crop_vector_stars.R): crop vector data with the `stars` package. 
+- [`focal_raster.R`](focal_raster.R): focal operation with the `raster` package.
 - [`plot_vector_ggspatial.R`](plot_vector_ggspatial.R): plot vector data with the `ggspatial` and `ggplot2` packages 
 - [`plot_raster_ggspatial.R`](plot_raster_ggspatial.R): plot a raster with the `ggspatial` and `ggplot2` packages 
 - [`read_raster.R`](read_raster.R): read a raster with the `raster` package. 
