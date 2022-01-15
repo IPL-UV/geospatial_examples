@@ -1,6 +1,6 @@
 ## Plot vector data using ggplot2+ggspatial 
 ## task: plot
-## author: Gherardo Varando (git: gherardovarando)
+## author: Gherardo Varando (github: gherardovarando)
 ## packages: ggplot2, ggspatial, sf
 
 ## load sf package 

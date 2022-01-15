@@ -67,4 +67,4 @@ Please update the list with useful resources.
 ### Maintainers 
 (list yourself here if you maintain one or more examples in this folder) 
 
-- Gherardo Varando (git: [gherardovarando](https://github.com/gherardovarando)) 
+- Gherardo Varando (github: [gherardovarando](https://github.com/gherardovarando)) 

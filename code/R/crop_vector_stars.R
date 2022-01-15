@@ -1,6 +1,6 @@
 ## Crop vector data to a given extent 
 ## task: crop
-## author: Gherardo Varando (git: gherardovarando)
+## author: Gherardo Varando (github: gherardovarando)
 ## packages: stars, (sf)
 
 ## load the stars package
