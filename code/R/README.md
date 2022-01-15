@@ -30,6 +30,8 @@ R programming language.
 - [`rotate_raster.R`](rotate_raster.R): rotate a raster with the `raster` package, _rotate_ refers to
   transform a raster that has x coordinates (longitude) from 0 to 360, to standard coordinates 
   between -180 and 180 degrees. 
+- [`write_raster.R`](write_raster.R): write a raster to disk with the `raster`
+  package.
 
 ### Packages 
 
