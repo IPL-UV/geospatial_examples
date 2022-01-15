@@ -32,6 +32,8 @@ R programming language.
   between -180 and 180 degrees. 
 - [`write_raster.R`](write_raster.R): write a raster to disk with the `raster`
   package.
+- [`write_vector_sf.R`](write_vector_sf.R): write a vector to disk with 
+  the `sf` package.
 
 ### Packages 
 

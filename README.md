@@ -69,11 +69,11 @@ georeferenced. See for example [arcgis help page](https://desktop.arcgis.com/en/
 | task             |  gdal | javascript |  python | R      |
 | ---              |  ---  | -----      |  -----  | ----   |
 | `crop`           |  rv   |            |         | rv     |
-| `focal`          |       |            |         |        |
+| `focal`          |       |            |         | r      |
 | `plot`           |       |    rv      |         | rv     |
 | `read`           |  rv   |            |         | rv     |
 | `reproject`      |  rv   |            |         | rv     |
-| `write`          |       |            |         |        |
+| `write`          |       |            |         | rv     |
 
 r == raster, v == vector 
 
