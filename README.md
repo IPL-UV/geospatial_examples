@@ -63,6 +63,7 @@ georeferenced. See for example [arcgis help page](https://desktop.arcgis.com/en/
 - `read`  : load the data appropriately. This includes reading the associated CRS, selecting the band,
             reading the value associated to NA.  
 - `reproject` : reproject the data to a new CRS.  
+- `resample` : resample the data to a different resolution.  
 - `write` : write the data into a file on disk. 
 
 
@@ -73,6 +74,7 @@ georeferenced. See for example [arcgis help page](https://desktop.arcgis.com/en/
 | `plot`           |       |    rv      |         | rv     |
 | `read`           |  rv   |            |         | rv     |
 | `reproject`      |  rv   |            |         | rv     |
+| `resample`       |  r    |            |         |        |
 | `write`          |       |            |         | rv     |
 
 r == raster, v == vector 

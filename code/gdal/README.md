@@ -31,6 +31,7 @@ in particular:
 - [`read_info_vector.sh`](read_info_vector.sh)
 - [`reproject_raster.sh`](reproject_raster.sh) 
 - [`reproject_vector.sh`](reproject_vector.sh) 
+- [`resample_raster.sh`](resample_raster.sh) 
 
 
 ### Resources 
@@ -39,4 +40,4 @@ in particular:
 ### Maintainers 
 (list yourself here if you maintain one or more examples in this folder) 
 
-- Gherardo Varando (git: [gherardovarando](https://github.com/gherardovarando)) 
+- Gherardo Varando (github: [gherardovarando](https://github.com/gherardovarando)) 
